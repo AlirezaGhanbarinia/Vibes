@@ -23,10 +23,10 @@ Simply add the following code to your root `build.gradle`:
 
 ```groovy
 allprojects {
-repositories {
-jcenter()
-maven { url "https://jitpack.io" }
-}
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
 }
 ```
 
@@ -34,7 +34,7 @@ Now add the gradle dependency in your application's `build.gradle`:
 
 ```groovy
 dependencies {
-compile 'com.github.hugeinc:Vibes:0.0.1'
+    compile 'com.github.hugeinc:Vibes:0.0.1'
 }
 ```
 
